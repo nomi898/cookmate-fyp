@@ -43,7 +43,7 @@ app.get('/', (req, res) => {
   res.send('Welcome to the Cookmate API!');
 });
 
-// Global error handler
+// Global error handler.
 app.use(errorHandler);
 
 // Start the server
