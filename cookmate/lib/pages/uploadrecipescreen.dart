@@ -4,7 +4,6 @@ import 'package:image_picker/image_picker.dart';
 import 'dart:io';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'dart:io' show Platform;
 import 'package:http_parser/http_parser.dart';
 import 'package:cookmate/authentication/auth.dart';
 import 'package:cookmate/config/api_config.dart';

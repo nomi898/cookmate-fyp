@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 // import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cookmate/authentication/auth.dart';
-import 'package:cookmate/pages/signin.dart';
 import 'package:cookmate/services/api_services.dart';
 import 'package:cookmate/pages/homescreen.dart';
 import 'package:cookmate/pages/detailrecipe.dart';

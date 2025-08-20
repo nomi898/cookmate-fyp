@@ -11,14 +11,12 @@ import 'package:cookmate/pages/camerascreen.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/rendering.dart';
 import 'dart:convert';
-import 'dart:io';
 import 'dart:async';
 import 'package:cookmate/authentication/auth.dart';
 import 'package:cookmate/config/api_config.dart';
 import 'dart:math';
 import 'package:cookmate/services/recommendation_service.dart';
 import 'package:cookmate/pages/detailrecipe.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class HomeScreen extends StatefulWidget {
   static List<Recipe> recipes = [];

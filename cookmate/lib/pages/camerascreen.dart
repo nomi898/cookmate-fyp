@@ -11,8 +11,6 @@ import 'package:tflite_flutter/tflite_flutter.dart';
 import 'dart:typed_data';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:flutter/foundation.dart';
-import 'package:cookmate/pages/homescreen.dart';
-import 'package:cookmate/pages/searchscreen.dart';
 
 import 'dart:math' show max, min, sqrt;
 import 'dart:math' as math;
