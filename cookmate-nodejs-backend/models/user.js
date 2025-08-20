@@ -21,4 +21,3 @@ exports.findUserById = async (id) => {
   return db.collection('users').findOne({ _id: new ObjectId(id) });
 };
 
-// ...add more as needed
